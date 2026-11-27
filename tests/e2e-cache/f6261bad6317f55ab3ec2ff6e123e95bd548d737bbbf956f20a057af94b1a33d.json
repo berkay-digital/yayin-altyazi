@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-27T19:15:53.978Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "tap",
+        "summary": "tap button \"1 OBS'e ekle\" in \"1\"",
+        "target": {
+          "role": "button",
+          "name": "1 OBS'e ekle",
+          "within": "1"
+        }
+      },
+      {
+        "name": "tap",
+        "summary": "tap button \"Adresleri yenile (eski adresler çalışma…\"",
+        "target": {
+          "role": "button",
+          "name": "Adresleri yenile (eski adresler çalışmaz)"
+        }
+      }
+    ],
+    "executor": {
+      "name": "claude-code",
+      "version": "1"
+    },
+    "recordedFor": {
+      "testId": "tests/agent.e2e.ts::the%20agent%20drives%20the%20dashboard::replaces%20leaked%20overlay%20links",
+      "targetId": "web",
+      "instructionDigest": "bc03b4c6018095942dd394c8d23dcdd51cedfe38deaed7407dbc39edb18888ba",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "summary": "On the OBS'e ekle step I tapped \"Adresleri yenile (eski adresler çalışmaz)\". The overlay and phone links changed to new ones, and the page showed \"Yeni adresler oluşturuldu. OBS'teki adresi güncelle.\" I did not open the old link to check that it no longer works; the button label says old links stop…",
+    "startPath": "/panel",
+    "endPath": "/panel#obs",
+    "endAnchors": [
+      {
+        "text": "Adım 1 / 4"
+      },
+      {
+        "role": "heading",
+        "name": "OBS'e ekle"
+      },
+      {
+        "text": "OBS'te sahnene Tarayıcı (Browser) kaynağı ekle, bu adresi yapıştır, genişlik 1920, yükseklik 1080 yap ve oyun kaynağının üstüne koy. Bu adres gizli kalmalı, yayında gösterme."
+      },
+      {
+        "role": "button",
+        "name": "Overlay adresini kopyala"
+      },
+      {
+        "text": "Altyazıyı sen de oku"
+      },
+      {
+        "text": "Konsolda TV'ye bakarken Türkçe satırları telefonda, tablette ya da ikinci ekranda gör. QR'ı okut ya da adresi aç. OBS'te Docklar > Özel Tarayıcı Dockları ile panel olarak da ekleyebilirsin."
+      },
+      {
+        "role": "button",
+        "name": "Telefon adresini kopyala"
+      },
+      {
+        "role": "image",
+        "name": "Telefon ekranı için QR kod"
+      }
+    ],
+    "goneAnchors": [
+      {
+        "role": "heading",
+        "name": "Canlı durum"
+      },
+      {
+        "text": "OBS'teki overlay'in şu an ne yaptığı. Her 3 saniyede yenilenir; yayına hiçbir uyarı düşmez."
+      },
+      {
+        "text": "Overlay OBS'te açık değil"
+      },
+      {
+        "role": "button",
+        "name": "Nasıl eklenir"
+      },
+      {
+        "text": "OBS bağlantısı"
+      },
+      {
+        "text": "Overlay açılınca kontrol edilir."
+      },
+      {
+        "text": "Altyazı okuma"
+      },
+      {
+        "text": "OBS bağlantısı kurulunca başlar."
+      }
+    ],
+    "endWaitMs": 13514,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "b7ed2886d84f862994f64ae41669af98e9001fabdcf05c2cc20d6bfcdbae2894",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "f9f49ed79c2662c7f6e0522da33af26cd0588919fce8b674530ba7c83e5d217c",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

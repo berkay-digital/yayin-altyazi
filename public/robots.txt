@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /panel
+Disallow: /o/
+Disallow: /v/
+Disallow: /api/
+Disallow: /dev/

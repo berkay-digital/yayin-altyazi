@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-27T19:15:47.303Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "tap",
+        "summary": "tap button \"4 Görünüm\" in \"4\"",
+        "target": {
+          "role": "button",
+          "name": "4 Görünüm",
+          "within": "4"
+        }
+      },
+      {
+        "name": "tap",
+        "summary": "tap tab \"Konum\"",
+        "target": {
+          "role": "tab",
+          "name": "Konum"
+        }
+      },
+      {
+        "name": "tap",
+        "summary": "tap combobox in \"Yer\" (1 of 1)",
+        "target": {
+          "role": "combobox",
+          "within": "Yer",
+          "position": {
+            "index": 0,
+            "of": 1
+          }
+        }
+      },
+      {
+        "name": "tap",
+        "summary": "tap option \"İngilizcenin üstüne (kapat)\" in \"İngilizcenin hemen üstü\"",
+        "target": {
+          "role": "option",
+          "name": "İngilizcenin üstüne (kapat)",
+          "within": "İngilizcenin hemen üstü"
+        }
+      },
+      {
+        "name": "tap",
+        "summary": "tap tab \"Yazı\"",
+        "target": {
+          "role": "tab",
+          "name": "Yazı"
+        }
+      },
+      {
+        "name": "tap",
+        "summary": "tap button \"Büyük\" in \"Boyut: 42px\"",
+        "target": {
+          "role": "button",
+          "name": "Büyük",
+          "within": "Boyut: 42px"
+        }
+      },
+      {
+        "name": "type",
+        "summary": "type \"#ffff00\" into textbox \"Yazı rengi kodu\" in \"Yazı rengi\"",
+        "target": {
+          "role": "textbox",
+          "name": "Yazı rengi kodu",
+          "within": "Yazı rengi"
+        },
+        "value": "#ffff00"
+      },
+      {
+        "name": "tap",
+        "summary": "tap button \"Değişiklikleri kaydet\"",
+        "target": {
+          "role": "button",
+          "name": "Değişiklikleri kaydet"
+        }
+      }
+    ],
+    "executor": {
+      "name": "claude-code",
+      "version": "1"
+    },
+    "recordedFor": {
+      "testId": "tests/agent.e2e.ts::the%20agent%20drives%20the%20dashboard::restyles%20the%20subtitles%20from%20a%20plain%20request",
+      "targetId": "web",
+      "instructionDigest": "a6999719adb2f0f23024f61f8e634109627e83f592737be67124e2a7c397b2de",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "summary": "In Görünüm, set position to \"İngilizcenin üstüne (kapat)\", size Büyük (56px), color #ffff00; weight was already 700 Kalın. Saved; \"Kaydedildi\" shown.",
+    "startPath": "/panel",
+    "endPath": "/panel#gorunum",
+    "endAnchors": [
+      {
+        "text": "Adım 4 / 4"
+      },
+      {
+        "role": "heading",
+        "name": "Görünüm"
+      },
+      {
+        "text": "Hazır bir stil seç ya da her şeyi kendin ayarla. Önizlemede yazıyı sürükleyerek istediğin yere taşıyabilirsin. Kaydedince OBS'te birkaç saniye içinde uygulanır."
+      },
+      {
+        "text": "This whole city's a scam, man. Everybody's hustling somebody."
+      },
+      {
+        "text": "Bu şehir komple dümen, kanka. Herkes birini kazıklıyor."
+      },
+      {
+        "text": "Polisleri ek"
+      },
+      {
+        "text": "Kesikli kutu: İngilizce altyazı alanı."
+      },
+      {
+        "role": "button",
+        "name": "Koyu"
+      }
+    ],
+    "goneAnchors": [
+      {
+        "role": "heading",
+        "name": "Canlı durum"
+      },
+      {
+        "text": "OBS'teki overlay'in şu an ne yaptığı. Her 3 saniyede yenilenir; yayına hiçbir uyarı düşmez."
+      },
+      {
+        "text": "Overlay OBS'te açık değil"
+      },
+      {
+        "role": "button",
+        "name": "Nasıl eklenir"
+      },
+      {
+        "text": "OBS bağlantısı"
+      },
+      {
+        "text": "Overlay açılınca kontrol edilir."
+      },
+      {
+        "text": "Altyazı okuma"
+      },
+      {
+        "text": "OBS bağlantısı kurulunca başlar."
+      }
+    ],
+    "endWaitMs": 13021,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "b7ed2886d84f862994f64ae41669af98e9001fabdcf05c2cc20d6bfcdbae2894",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "f9f49ed79c2662c7f6e0522da33af26cd0588919fce8b674530ba7c83e5d217c",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}
