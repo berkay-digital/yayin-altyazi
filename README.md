@@ -19,6 +19,7 @@
 </p>
 
 <p>
+  <a href="https://altyazi.ordinon.com"><b>Hosted version</b></a> ·
   <a href="#features">Features</a> ·
   <a href="#how-it-works">How it works</a> ·
   <a href="#quick-start">Quick start</a> ·
@@ -40,6 +41,10 @@
 Big games ship without Turkish, and console streamers can't install mods or subtitle patches. Yayın Altyazı works from the video alone. It reads the English subtitles the game already draws, translates them with the conversation as context, and draws the Turkish line on top of the game in OBS. Nothing touches the console or the game.
 
 It started with GTA 6 and ships a glossary for it. It works with any game that shows English subtitles.
+
+## Hosted version
+
+Don't want to run a server? **[altyazi.ordinon.com](https://altyazi.ordinon.com)** is the hosted version, ready to use with a free trial. Sign up, paste the overlay link into OBS and go live. This repository is the same project with the code open, for anyone who wants to read it, run it on their own server or contribute.
 
 ## Features
 
