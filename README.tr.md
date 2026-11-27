@@ -19,6 +19,7 @@
 </p>
 
 <p>
+  <a href="https://altyazi.ordinon.com"><b>Barındırılan sürüm</b></a> ·
   <a href="#özellikler">Özellikler</a> ·
   <a href="#nasıl-çalışır">Nasıl çalışır</a> ·
   <a href="#hızlı-başlangıç">Hızlı başlangıç</a> ·
@@ -40,6 +41,10 @@
 Büyük oyunlar Türkçe dil desteği olmadan çıkıyor, konsoldan yayın yapanlar da mod ya da yama kuramıyor. Yayın Altyazı sadece görüntüyle çalışır. Oyunun zaten ekrana çizdiği İngilizce altyazıyı okur, sahnenin geri kalanını bağlam olarak kullanıp çevirir ve Türkçe satırı OBS'te oyunun üstüne çizer. Konsola da oyuna da dokunmaz.
 
 GTA 6 ile başladı ve onun için hazır bir sözlükle gelir. İngilizce altyazı gösteren her oyunda çalışır.
+
+## Barındırılan sürüm
+
+Sunucu kurmakla uğraşmak istemiyor musun? **[altyazi.ordinon.com](https://altyazi.ordinon.com)** barındırılan sürüm; ücretsiz denemeyle hemen kullanabilirsin. Kayıt ol, overlay adresini OBS'e yapıştır ve yayına çık. Bu depo aynı projenin açık kodu: okumak, kendi sunucunda çalıştırmak ya da katkı vermek isteyenler için.
 
 ## Özellikler
 
